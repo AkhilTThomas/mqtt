@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run MQTT Server",
+            "type": "shell",
+            "command": "docker run -p 1883:1883 --net=host eclipse-mosquitto:2.0.14 mosquitto"
+        }
+        {
+            "label": "Stop MQTT Server",
+            "type": "shell",
+            "command": "docker stop mqtt"
+        }
+    ]
+}

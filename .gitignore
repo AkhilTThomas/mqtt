@@ -1,0 +1,11 @@
+# binary
+build
+
+# exclude some conan generated files
+graph_info.json
+conan_toolchain.cmake
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+conan_imports_manifest.txt
