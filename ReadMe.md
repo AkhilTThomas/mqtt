@@ -1,9 +1,12 @@
 # Pre-requiste
 
 ```shell
+# install conan package for python
+pip install conan==1.59.0
 # add artifactory remote repository
 conan remote add conancenter https://center.conan.io
 # Install conan profile
+mkdir build && cd build
 conan install .. -pr:h ../.conan/profile/linux_x86_64_debug
 # build executable
 conan build ..
