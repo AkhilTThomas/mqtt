@@ -1,7 +1,7 @@
 # Pre-requiste
 
 ```shell
-# install conan package for python
+# install conan package for python , already installed if using devcontainer
 pip install conan==1.59.0
 # add artifactory remote repository
 conan remote add conancenter https://center.conan.io
@@ -26,3 +26,5 @@ conan build ..
 
 - Run binary  
     ```./build/bin/publisher```
+
+![Output](docs/Output.png)
